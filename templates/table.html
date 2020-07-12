@@ -1,0 +1,17 @@
+<table bgcolor = pink style="width:100%">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    {% for std_data in stdlist %}
+    <tr>
+        
+        <td>{{std_data[0]}}</td>
+        <td>{{std_data[1]}}</td>
+        <td>{{std_data[2]}}</td>
+        <td>{{std_data[3]}}</td>
+        
+    </tr>
+     {% endfor %}
+</table>
